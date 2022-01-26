@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    border: solid 0.2px;
+}
+
+.sub-nav1{
+    display: flex;
+    align-items: center;
+}
+
+.sub-nav2{
+    font-size: 15px;
+    font-family: Verdana;
+    justify-content:stretch;
+
+}
+
+.sub-nav2 a{
+    text-decoration: none;
+    margin-right: 7px;
+    color: black;
+}
+
+.sub-nav2 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+select{
+    background-color: rgb(35, 98, 182);
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    margin:5px;
+}
+
+input{
+    width: 270px;
+    height: 25px;
+}
+
+.sub-nav1 button{
+    background-color: rgb(35, 98, 182);
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}
+.sub-nav3{
+    display: flex;
+    align-items: left;
+    
+
+}
+.sub-nav3 button{
+    background-color:rgb(30, 103, 199);
+    padding:10px;
+    color:seashell;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 13px;
+    margin: 6px;
+}
+.cover-content{
+    display: flex;
+    justify-content: right;
+    
+}
+.cover{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    }
